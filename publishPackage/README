@@ -1,0 +1,19 @@
+这是一个测试发布包
+
+cd 进入文件夹
+执行 npm init  依照提示创建 package.json
+
+验证包账号 或者通过npm.org 注册
+npm addUser
+
+发布包
+npm publish  xxx
+
+
+更新包 需要更改version号 在执行  发布
+
+包权限管理
+默认包只有一个管理
+通过 npm owner 命令帮助你管理包所有者
+
+分析包 npm ls
